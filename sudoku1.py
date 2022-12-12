@@ -21,7 +21,7 @@ def gameboard():
     my_canvas.create_line(280, 40, 280, 760, width=2, fill = 'blue')
     my_canvas.create_line(520, 40, 520, 760, width=2, fill = 'blue')
     my_canvas.create_line(40, 280, 760, 280, width=2, fill = 'blue')
-    my_canvas.create_line(40, 520, 760, 520, width=2, fill = 'blue')
+    my_canvas.create_line(40, 520, 760, 520, width=2, fill = 'gray')
     #non bold lines
     my_canvas.create_line(120, 40, 120, 760, width=2, fill = 'gray')
     my_canvas.create_line(200, 40, 200, 760, width=2, fill = 'gray')
